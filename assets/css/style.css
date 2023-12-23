@@ -1,0 +1,102 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+}
+ul{
+    list-style-type: none;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    color: #16507b;
+}
+.nav .nav-link ul{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    color: #16507b;
+}
+.nav .nav-link{
+    display: flex;
+    padding-right: 100px;
+    align-items: center;
+    gap: 30px;
+}
+.nav .nav-logo{
+    padding-left: 100px;
+}
+.nav .nav-link button{
+    width: 114.6px;
+    height: 37;
+    margin-bottom: 10px;
+    background-color: #2487ce;
+    color: white;
+    border: none;
+    border-radius: 2px;
+}
+.hero .hero-boxes .container{
+    display: flex;
+}
+.hero {
+    text-align: center;
+}
+.hero .hero-text h1{
+    font-weight: bold;
+    font-size: 56px;
+    width: 746px;
+    margin-left:380px;
+    color: #124265;
+}
+.hero .hero-text p{
+    color: #5e5e5e;
+}
+.hero{
+    background-color: whitesmoke ;
+}
+.hero .hero-text-button button{
+    color: white;
+    background-color: #2487ce;
+    width: 185.68px;
+    padding: 14px ;
+    margin-top: 20px;
+    border: none;
+    border-radius: 4px;
+} 
+.hero .hero-boxes .container .hero-box{
+    background-color: white;
+    color: #444444;
+    padding: 50px 30px;
+}
+.hero .hero-boxes .container .hero-box a{
+    color: #124265;
+    text-decoration: none;
+    margin: 30px;
+}
+.hero .hero-boxes .container{
+    gap: 40px;
+}
+
+.about-us .title{
+    text-align: center;
+    align-items: center;
+}
+.about-us .under-title{
+    display: flex;
+    gap: 400px;
+}
+.about-us .under-title .title-text{
+    padding-left: 200px;
+}
+.about-us .under-title .title-descripe button{
+    background-color: white;
+    color: #2487ce;
+    border-color: #2487ce;
+    padding: 12px 32px;
+    border-radius: 7px;
+}
+.about-us .title{
+    color: #124265;
+}
